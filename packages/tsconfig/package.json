@@ -1,6 +1,6 @@
 {
   "name": "@meaganewaller/tsconfig",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The typescript config for meaganewaller projects",
   "main": "tsconfig.json",
   "license": "MIT",
