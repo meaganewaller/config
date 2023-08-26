@@ -1,0 +1,31 @@
+{
+  "name": "@meaganewaller/tsconfig",
+  "version": "1.0.0",
+  "description": "The typescript config for meaganewaller projects",
+  "main": "tsconfig.json",
+  "license": "MIT",
+  "keywords": [
+    "meaganewaller",
+    "tsconfig",
+    "typescript"
+  ],
+  "author": "Meagan Waller <meagan@meaganwaller.com> (https://github.com/meaganewaller)",
+  "homepage": "https://github.com/meaganewaller/config#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meaganewaller/config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/meaganewaller/config/issues"
+  },
+  "files": [
+    "tsconfig.json",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "typescript": "5.x"
+  }
+}

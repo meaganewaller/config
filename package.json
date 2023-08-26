@@ -1,0 +1,32 @@
+{
+  "name": "@meaganewaller/config",
+  "version": "0.0.1",
+  "description": "Shared configs for meaganewaller's projects",
+  "author": "Meagan Waller <meagan@meaganwaller.com> (https://github.com/meaganewaller)",
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meaganewaller/config.git"
+  },
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "prepare": "husky install",
+    "format": "prettier -w ."
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.26.2",
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.0",
+    "@meaganewaller/prettier-config": "^1.0.0",
+    "prettier": "^3.0.2"
+  },
+  "prettier": "@meaganewaller/prettier-config",
+  "lint-staged": {
+    "*.{json,css,scss,md,mdx,js,jsx,ts,tsx,cjs,mjs}": [
+      "prettier -c"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "@meaganewaller/prettier-config",
+  "version": "1.0.5",
+  "description": "The prettier config for meaganewaller projects",
+  "main": "index.js",
+  "license": "MIT",
+  "keywords": [
+    "prettier",
+    "prettier-config",
+    "meaganewaller"
+  ],
+  "author": "Meagan Waller <meagan@meaganwaller.com> (https://github.com/meaganewaller/)",
+  "homepage": "https://github.com/meaganewaller/config#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meaganewaller/config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/meaganewaller/config/issues"
+  },
+  "files": [
+    "index.js",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "prettier": "3.x"
+  },
+  "dependencies": {
+    "prettier-plugin-prisma": "^5.0.0",
+    "prettier-plugin-tailwindcss": "^0.4.1"
+  }
+}
