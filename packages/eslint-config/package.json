@@ -1,10 +1,25 @@
 {
   "name": "@meaganewaller/eslint-config",
   "version": "1.0.0",
-  "description": "The eslint config for meaganewaller projects",
+  "description": "The ESLint config for meaganewaller projects",
   "main": "index.js",
+  "dependencies": {
+    "eslint": "^8.48.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-unused-imports": "^3.0.0",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meaganewaller/config.git"
   },
   "keywords": [
     "eslint",
@@ -12,37 +27,13 @@
     "eslint-config",
     "meaganewaller"
   ],
-  "author": "Meagan Waller <meagan@meaganwaller.com> (https://github.com/meaganewaller)",
+  "author": "Meagan Waller",
   "license": "MIT",
-  "homepage": "https://github.com/meaganewaller/config#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/meaganewaller/config.git"
-  },
   "bugs": {
     "url": "https://github.com/meaganewaller/config/issues"
   },
-  "files": [
-    "index.js",
-    "package.json",
-    "README.md",
-    "LICENSE"
-  ],
   "publishConfig": {
     "access": "public"
   },
-  "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^6.4.1",
-    "@typescript-eslint/parser": "^6.4.1",
-    "eslint-config-prettier": "^9.0.0",
-    "eslint-plugin-jsx-a11y": "^6.7.1",
-    "eslint-plugin-prettier": "^5.0.0",
-    "eslint-plugin-react": "^7.33.2",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-simple-import-sort": "^10.0.0",
-    "eslint-plugin-unused-imports": "^3.0.0"
-  },
-  "devDependencies": {
-    "eslint": "^8.48.0"
-  }
+  "homepage": "https://github.com/meaganewaller/config#readme"
 }

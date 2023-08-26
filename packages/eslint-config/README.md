@@ -1,6 +1,6 @@
 # @meaganewaller/eslint-config
 
-The ESLint configuration for TypeScript projects by meeaganealler.
+The ESLint configuration for TypeScript projects by meaganewaller.
 
 ## Installation
 
@@ -18,8 +18,8 @@ Extend the configuration in your ESLint config file:
 
 ```js
 module.exports = {
-  extends: ['@meaganewaller/eslint-config'],
-}
+  extends: ["@meaganewaller/eslint-config"],
+};
 ```
 
 ## Configuration
