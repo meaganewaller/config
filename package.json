@@ -4,7 +4,7 @@
   "description": "Shared configs for meaganewaller's projects",
   "author": "Meagan Waller <meagan@meaganwaller.com> (https://github.com/meaganewaller)",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/meaganewaller/config.git"
