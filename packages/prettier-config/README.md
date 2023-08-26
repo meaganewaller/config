@@ -27,7 +27,7 @@ To use this prettier config, just reference it in your `package.json` file:
 You can also reference it in your `.prettierrc.js` file:
 
 ```js
-module.exports = '@meaganewaller/prettier-config'
+module.exports = "@meaganewaller/prettier-config";
 ```
 
 ## Configuration
@@ -48,9 +48,9 @@ You can modify these settings by creating your own `prettier.config.js` file and
 
 ```js
 module.exports = {
-  ...require('@meaganewaller/prettier-config'),
+  ...require("@meaganewaller/prettier-config"),
   semi: true,
-}
+};
 ```
 
 ## License
