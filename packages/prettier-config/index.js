@@ -1,5 +1,5 @@
 module.exports = {
-  arrowParents: 'always',
+  arrowParens: 'always',
   singleQuote: true,
   jsxSingleQuote: true,
   tabWidth: 2,
