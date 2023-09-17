@@ -1,6 +1,6 @@
 {
   "name": "@meaganewaller/prettier-config",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "The prettier config for meaganewaller projects",
   "main": "index.js",
   "license": "MIT",
